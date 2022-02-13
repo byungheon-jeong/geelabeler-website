@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgeel_website=self.webpackChunkgeel_website||[]).push([[202],{1433:function(e){e.exports=JSON.parse('{"allTagsPath":"/geelabeler-website/blog/tags","slug":"/geelabeler-website/blog/tags/facebook","name":"facebook","count":1,"permalink":"/geelabeler-website/blog/tags/facebook"}')}}]);
