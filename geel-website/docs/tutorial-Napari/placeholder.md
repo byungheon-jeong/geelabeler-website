@@ -48,6 +48,7 @@ How to set up dataset for labeling
     ├── Engilchek_glacier_1999-08-26.tif
     └── Engilchek_glacier_1999-10-13.tif
 ```
+> :warning: **The full_img file name must be the same as the ones label_img**
 
 |subdirectory|description|
 |----|----|
@@ -67,6 +68,22 @@ After the desired dataset is put in the directory;
         ./example_dataset
         ```
     - The Checkpoint file should be created automatically
+
+    ```
+        .
+        ├── checkpoints
+        │   └── imgAnnotatedData.json
+        ├── full_img
+        │   ├── Engilchek_glacier_1999-07-09.tif
+        │   ├── Engilchek_glacier_1999-08-10.tif
+        │   ├── Engilchek_glacier_1999-08-26.tif
+        │   └── Engilchek_glacier_1999-10-13.tif
+        └── label_img
+            ├── Engilchek_glacier_1999-07-09.tif
+            ├── Engilchek_glacier_1999-08-10.tif
+            ├── Engilchek_glacier_1999-08-26.tif
+            └── Engilchek_glacier_1999-10-13.tif
+    ```
 2. Label Image or decide to SKIP image
 
 3. If image is labeled, press ENTER else, enter "SKIP"
