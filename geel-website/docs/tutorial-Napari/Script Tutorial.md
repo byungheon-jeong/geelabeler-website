@@ -30,6 +30,9 @@ python src/run_annotation.py
         └── Engilchek_glacier_1999-10-13.tif
 ```
 
+**My Monitor Setup**
+![setup](https://raw.githubusercontent.com/byungheon-jeong/geelabeler-website/master/geel-website/images/my_setup.PNG)
+
 ### Label Image or decide to SKIP image
 ![Labeling Image](https://raw.githubusercontent.com/byungheon-jeong/geelabeler-website/master/geel-website/images/gee_labeler.gif)
 
@@ -37,4 +40,4 @@ python src/run_annotation.py
     If image is labeled, press ENTER else, enter "SKIP")
 ![SKIPPING](https://raw.githubusercontent.com/byungheon-jeong/geelabeler-website/master/geel-website/images/skip.PNG)
     **Enter SKIP if you want to skip image**
-
+![SKIPPING GIF](https://raw.githubusercontent.com/byungheon-jeong/geelabeler-website/master/geel-website/images/skipping_img.gif)
