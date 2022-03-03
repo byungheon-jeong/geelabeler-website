@@ -86,4 +86,7 @@ After the desired dataset is put in the directory;
     ```
 2. Label Image or decide to SKIP image
 
-3. If image is labeled, press ENTER else, enter "SKIP"
+    ![Labeling Image](https://raw.githubusercontent.com/byungheon-jeong/geelabeler-website/master/geel-website/images/gee_labeler.gif)
+3. If image is labeled, press ENTER else, enter "SKIP")
+    ![SKIPPING](https://raw.githubusercontent.com/byungheon-jeong/geelabeler-website/master/geel-website/images/skip.PNG)
+    **Enter SKIP if you want to skip image**

@@ -31,7 +31,7 @@ Test GEEL:
 napari
 ```
 
-<!-- ![blank_napari](\images\blank_napari.PNG) -->
+![blank_napari](https://raw.githubusercontent.com/byungheon-jeong/geelabeler-website/master/geel-website/images/blank_napari.PNG)
 *Napari should be running*
 
 
