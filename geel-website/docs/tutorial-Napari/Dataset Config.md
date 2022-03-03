@@ -55,38 +55,3 @@ How to set up dataset for labeling
 |full_img| This subdirectory is where the TIFF image file with ALL the bands are present|
 |label_img| This subdirectory is where the TIFF image files that will be used to label (only consist of a few bands) are present|
 
-
-### Starting Napari
-After the desired dataset is put in the directory;
-
-1. Run main script from the project directory
-
-        ```
-        python src/run_annotation.py
-
-        > Enter Directory:
-        ./example_dataset
-        ```
-    - The Checkpoint file should be created automatically
-
-    ```
-        .
-        ├── checkpoints
-        │   └── imgAnnotatedData.json
-        ├── full_img
-        │   ├── Engilchek_glacier_1999-07-09.tif
-        │   ├── Engilchek_glacier_1999-08-10.tif
-        │   ├── Engilchek_glacier_1999-08-26.tif
-        │   └── Engilchek_glacier_1999-10-13.tif
-        └── label_img
-            ├── Engilchek_glacier_1999-07-09.tif
-            ├── Engilchek_glacier_1999-08-10.tif
-            ├── Engilchek_glacier_1999-08-26.tif
-            └── Engilchek_glacier_1999-10-13.tif
-    ```
-2. Label Image or decide to SKIP image
-
-    ![Labeling Image](https://raw.githubusercontent.com/byungheon-jeong/geelabeler-website/master/geel-website/images/gee_labeler.gif)
-3. If image is labeled, press ENTER else, enter "SKIP")
-    ![SKIPPING](https://raw.githubusercontent.com/byungheon-jeong/geelabeler-website/master/geel-website/images/skip.PNG)
-    **Enter SKIP if you want to skip image**
