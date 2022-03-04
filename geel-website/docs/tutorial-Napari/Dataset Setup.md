@@ -50,8 +50,14 @@ How to set up dataset for labeling
 ```
 > :warning: **The full_img file name must be the same as the ones label_img**
 
+<!-- :::Image Information -->
+:::tip
+
 |subdirectory|description|
 |----|----|
 |full_img| This subdirectory is where the TIFF image file with ALL the bands are present|
 |label_img| This subdirectory is where the TIFF image files that will be used to label (only consist of a few bands) are present|
 
+![image shapes](https://raw.githubusercontent.com/byungheon-jeong/geelabeler-website/master/geel-website/images/image_shapes-full.PNG)
+
+:::

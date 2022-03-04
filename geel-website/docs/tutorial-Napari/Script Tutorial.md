@@ -73,5 +73,5 @@ python src/run_annotation.py
 |data.npy| This file that holds the band data for each pixel of the labeled polygon|
 |labels.npy| This file holds the designated label |
 
-
+![outputs](https://raw.githubusercontent.com/byungheon-jeong/geelabeler-website/master/geel-website/images/outputnpy.PNG)
 
