@@ -55,9 +55,8 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/data_sources/DataSources', label: 'Data Sources', position: 'left'},
-          {to: '/analysis/analysis', label: 'Analysis', position: 'left'},
-          {to: '/about_us/aboutus', label: 'About Us', position: 'left'},
+          {to: '/analysis/Analysis-Report', label: 'Analysis', position: 'left'},
+          {to: '/about_us/MDAboutUs', label: 'About Us', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
 
           {

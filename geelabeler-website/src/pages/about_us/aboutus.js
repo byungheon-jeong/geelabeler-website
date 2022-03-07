@@ -19,7 +19,7 @@ function AboutUs() {
           fontSize: '20px',
         }}>
         <p>
-         This is where information about Prof.Schwartzman, Byugheon Jeong, and Ivan Cano will go
+         This only shows if compilation fails
         </p>
       </div>
     </Layout>
